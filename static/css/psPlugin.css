@@ -1,0 +1,593 @@
+#wrap{
+  background: rgb(255,255,255);
+  min-width: 1400px;
+}
+.content{
+  background: rgb(240,240,240);
+  height: 888px;
+}
+.header-top{
+  display: flex;
+  height: 35px;
+  line-height: 35px;
+  position: relative;
+  margin-left: 40px;
+}
+.title{
+  color: rgb(0,0,0);
+  font-size: 18px;
+  padding-top: 3px;
+}
+.logoImg img{
+  vertical-align: middle;
+  margin: 0 15px;
+}
+.header-center{
+  display: flex;
+  height: 20px;
+  margin-left: 50px;
+}
+.header-center li{
+  font-size: 14px;
+  width: 70px;
+  text-align: center;
+  height: 18px;
+  line-height: 18px;
+}
+.header-center li:hover{
+  background: rgb(229,243,255);
+  border: 1px solid rgb(192,220,243);
+}
+/*.active{*/
+  /*background: rgb(229,243,255);*/
+  /*border: 1px solid rgb(192,220,243);*/
+/*}*/
+.icon{
+  position: absolute;
+  right: 0;
+}
+.icon span{
+  padding: 0px 20px;
+}
+.icon span img{
+  width: 15px;
+}
+.icon span:hover{
+  background: rgb(229,229,229);
+  padding: 10px 20px 0px 20px;
+}
+.line{
+  border-bottom: 1px solid rgb(242,242,242);
+  margin-top: 3px;
+}
+.icons{
+  height: 30px;
+  background: rgb(240,240,240);
+  margin-top: 2px;
+}
+.icons ul{
+  display: flex;
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px solid rgb(185,185,185);
+}
+.icons ul li{
+  margin-right: 10px;
+}
+.icons ul li:nth-child(4):hover{
+  background: rgb(229,243,255);
+  border: 1px solid rgb(192,220,243);
+  width: 31px;
+  text-align: center;
+}
+.icons ul li:nth-child(2):hover{
+  background: rgb(229,243,255);
+  border: 1px solid rgb(192,220,243);
+  width: 31px;
+  text-align: center;
+}
+.icons ul li:nth-child(3):hover{
+  background: rgb(229,243,255);
+  border: 1px solid rgb(192,220,243);
+  width: 31px;
+  text-align: center;
+}
+.icons ul li:last-child:hover{
+  background: rgb(229,243,255);
+  border: 1px solid rgb(192,220,243);
+  width: 31px;
+  text-align: center;
+}
+.icons ul li img{
+  vertical-align: middle;
+}
+.left{
+  margin-top: 2px;
+  position: relative;
+  background: rgb(240,240,240);
+  height: 100%;
+}
+.leftTop{
+  height: 20px;
+  border: 1px solid rgb(185,185,185);
+  background: rgb(218,218,218);
+  display: flex;
+  margin-right: 10px;
+}
+.leftRT{
+  margin-right: 5px;
+}
+.leftRT img{
+  width: 10px;
+  height: 10px;
+  vertical-align: middle;
+}
+.leftRT2 img{
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+}
+.font{
+  font-size: 12px;
+  line-height: 20px;
+  margin-left: 5px;
+}
+.leftRight{
+  display: flex;
+  position: absolute;
+  right: 15px;
+}
+.leftCenter{
+  display: flex;
+  padding: 9px 0;
+}
+.leftCenter li img{
+  vertical-align: middle;
+}
+.leftCenter li{
+  margin-left: 8px;
+}
+.leftCenter li:first-child:hover{
+  background: rgb(229,243,255);
+  border: 1px solid rgb(192,220,243);
+  padding: 2px 4px;
+  margin-left: 8px;
+}
+.leftCenter li:nth-child(2):hover{
+  background: rgb(229,243,255);
+  border: 1px solid rgb(192,220,243);
+  padding: 2px 4px;
+  margin-left: 8px;
+}
+.leftLine{
+  border-left: 1px solid rgb(211,211,211);
+}
+.leftWork{
+  border: 1px  solid rgb(130,135,144);
+  min-height: 390px;
+  margin-right: 10px;
+  background: #fff;
+}
+.leftWork2{
+  border: 1px  solid rgb(130,135,144);
+  min-height: 390px;
+  margin-right: 10px;
+  margin-top: 6px;
+  background: #fff;
+}
+.leftWorkTitle{
+  display: flex;
+  padding: 0px 8px;
+}
+.workCont{
+  margin-left: 10px;
+  font-size: 16px;
+}
+.rightTitle{
+  width: 55px;
+  height: 20px;
+  border: 1px solid rgb(217,217,217);
+  border-bottom: none;
+  text-align: center;
+  margin-top: 2px;
+  background: #fff;
+}
+.rightContent{
+  border: 1px solid rgb(217,217,217);
+  background: #fff;
+  padding: 2px;
+  max-height: 605px;
+}
+.rightContent div img{
+  width: 100%;
+  max-height: 605px;
+  min-height: 600px;
+}
+.rightBottomTitle{
+  border: 1px solid rgb(185,185,185);
+}
+.rightBottom{
+  margin-top: 7px;
+}
+.leftTop2{
+  height: 20px;
+  border: 1px solid rgb(185,185,185);
+  background: rgb(218,218,218);
+  display: flex;
+}
+.leftRight2{
+  display: flex;
+  position: absolute;
+  right: 5px;
+}
+.rightBottomContent{
+  display: flex;
+  padding: 6px 0px;
+}
+.rightBottomContent li{
+  margin-right: 10px;
+}
+.rightBottomFooter{
+  border: 1px  solid rgb(130,135,144);
+  height: 150px;
+  background: #fff;
+}
+/*参考*/
+.leftWorks{
+  border: 1px  solid rgb(130,135,144);
+  min-height: 255px;
+  margin-right: 10px;
+  background: #fff;
+  overflow-x: scroll;
+  margin-bottom: 6px;
+}
+.leftWorks ul{
+  display: flex;
+  height: 30px;
+  line-height: 30px;
+}
+.leftWorks ul li{
+  padding-left: 5px;
+  padding-right: 80px;
+  border-right: 1px solid rgb(229,229,229);
+}
+.leftWorks ul li:hover{
+  background: rgb(229,243,255);
+  border: 1px solid rgb(192,220,243);
+}
+.footer{
+  display: flex;
+}
+.footer div{
+  height: 20px;
+  width: 95px;
+  border: 1px solid rgb(240,240,240);
+  background: #fff;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+}
+.file{
+  position: absolute;
+  z-index: 22;
+  top: 60px;
+  left: 50px;
+  width: 165px;
+  background: rgb(240,240,240);
+  box-shadow: 2px 3px 3px #888888;
+}
+.file li{
+  padding-left: 5px;
+  height: 25px;
+  line-height: 25px;
+}
+.file li:hover{
+  background: rgb(192,220,243);
+}
+.file li:nth-child(9):hover{
+  background: rgb(218,218,218) !important;
+}
+.file li button:hover{
+  background: rgb(218,218,218) !important;
+}
+.file li button{
+  border: none;
+  background: rgb(240,240,240);
+  margin-left: 27px;
+  outline: none;
+}
+.file li img{
+  vertical-align: middle;
+}
+.first{
+  margin-left: 5px;
+}
+.kuai{
+  margin-left: 28px;
+}
+.only{
+  margin-left: 33px
+}
+.line{
+  border-bottom: 1px solid rgb(217,217,217);
+}
+.editor{
+  position: absolute;
+  z-index: 22;
+  top: 60px;
+  width: 200px;
+  background: rgb(240,240,240);
+  box-shadow: 2px 3px 3px #888888;
+  left: 110px;
+}
+.editor li{
+  padding-left: 5px;
+  height: 25px;
+  line-height: 25px;
+}
+.editor li img{
+  vertical-align: middle;
+}
+.export{
+  position: absolute;
+  z-index: 22;
+  top: 195px;
+  width: 195px;
+  background: rgb(240,240,240);
+  left: 210px;
+  -webkit-box-shadow: 2px 3px 3px #888888;
+  box-shadow: 2px 3px 3px #888888;
+}
+.export li{
+  padding-left: 5px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.export li span{
+  color: rgb(128,128,128);
+}
+.export li:hover{
+  background: rgb(218,218,218);
+}
+.export li:nth-child(4):hover{
+  background: rgb(192,220,243) !important;
+  color: #000 !important;
+}
+.export li:nth-child(5):hover{
+  background: rgb(192,220,243) !important;
+  color: #000 !important;
+}
+.export li img{
+  vertical-align: middle;
+}
+.import{
+  position: absolute;
+  z-index: 22;
+  top: 290px;
+  width: 195px;
+  background: rgb(240,240,240);
+  left: 400px;
+  -webkit-box-shadow: 2px 3px 3px #888888;
+  box-shadow: 2px 3px 3px #888888;
+}
+.import li{
+  padding-left: 5px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: rgb(128,128,128);
+}
+.import li:hover{
+  background: rgb(218,218,218);
+}
+.import li:first-child:hover{
+  background: rgb(192,220,243);
+}
+.import li img{
+  vertical-align: middle;
+}
+.workflow{
+  position: absolute;
+  z-index: 22;
+  top: 55px;
+  width: 205px;
+  background: rgb(240,240,240);
+  left: 250px;
+  -webkit-box-shadow: 2px 3px 3px #888888;
+  box-shadow: 2px 3px 3px #888888;
+}
+.workflow li{
+  padding-left: 5px;
+  height: 30px;
+  line-height: 30px;
+}
+.workflow li:hover{
+  background: rgb(192,220,243);
+}
+.workflow li img{
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.workflow li button{
+  margin-left: 50px;
+  border: none;
+  background: rgb(240,240,240);
+  outline: none;
+}
+.workflow li span{
+  margin-left: 50px;
+}
+.workflow li button:hover{
+  background: rgb(192,220,243);
+}
+.lesdIn{
+  position: absolute;
+  z-index: 22;
+  top: 220px;
+  width: 195px;
+  background: rgb(240,240,240);
+  left: 160px;
+  -webkit-box-shadow: 2px 3px 3px #888888;
+  box-shadow: 2px 3px 3px #888888;
+}
+.lesdIn li{
+  padding-left: 5px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: rgb(128,128,128);
+}
+.lesdIn li:hover{
+  background: rgb(218,218,218);
+}
+.lesdIn li:last-child:hover{
+  background: rgb(192,220,243);
+}
+.lesdIn li:last-child{
+  color: #000 !important;
+}
+.lesdIn li img{
+  vertical-align: middle;
+}
+.num{
+  position: absolute;
+  z-index: 22;
+  top: 320px;
+  width: 195px;
+  background: rgb(240,240,240);
+  left: 400px;
+  -webkit-box-shadow: 2px 3px 3px #888888;
+  box-shadow: 2px 3px 3px #888888;
+}
+.num li{
+  color: rgb(128,128,128);
+  padding-left: 5px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.num li:hover{
+  background: rgb(218,218,218);
+}
+.num li:first-child:hover{
+  background: rgb(192,220,243);
+}
+.num li img{
+  vertical-align: middle;
+}
+.importPic{
+  position: absolute;
+  width: 900px;
+  height: 550px;
+  top: 135px;
+  left: 500px;
+}
+.importPic img{
+  width: 100%;
+}
+/*对其图片样式*/
+.Align{
+  width: 350px;
+  min-height: 250px;
+  background: rgb(240,240,240);
+  border: 1px solid rgb(107,107,107);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -175px 0 0 -125px;
+}
+.AlignTop{
+  height: 35px;
+  background: #fff;
+  line-height: 35px;
+  padding-left: 10px;
+}
+.AlignTop span{
+  margin-left: 5px;
+}
+.AlignTop span img{
+  vertical-align: middle;
+}
+.AlignFirst{
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.AlignFirstContent{
+  margin-left: 20px;
+  margin-top: 12px;
+}
+.AlignFirstContent li{
+  height: 25px;
+}
+.AlignFirstContents{
+  margin-top: 12px;
+}
+.AlignFirstContents li{
+  height: 25px;
+}
+.Alignsecond{
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.AlignFirstBottom{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.AlignFirstBottom button{
+  width: 90px;
+  height: 25px;
+}
+.picture{
+  position: absolute;
+  width: 358px;
+  height: 230px;
+  top: 50%;
+  left: 50%;
+  margin: -115px 0 0 -179px;
+}
+.picture img{
+  width: 100%;
+}
+.buildCloudpic{
+  position: absolute;
+  width: 358px;
+  height: 230px;
+  top: 50%;
+  left: 50%;
+  margin: -115px 0 0 -179px;
+}
+.buildCloudpic img{
+  width: 100%;
+}
+.savePic{
+  width: 395px;
+  height: 143px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -71.5px 0 0 -197.5px;
+}
+.savePic img{
+  width: 100%;
+}
+.saveAlert{
+  width: 944px;
+  height: 592px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -296px 0 0 -472px;
+}
+.Aligns{
+  width: 430px;
+  height: 668px;
+  background: rgb(240,240,240);
+  border: 1px solid rgb(107,107,107);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -334px 0 0 -215px;
+}

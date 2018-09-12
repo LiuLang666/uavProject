@@ -1,0 +1,249 @@
+{
+    "accessors": {
+        "geo_Plane001_654_0_0_3_NORMAL": {
+            "bufferView": "geo_Plane001_654_0_0_3_NORMAL_Buffer",
+            "byteOffset": 0,
+            "byteStride": 3,
+            "componentType": 85120,
+            "count": 17785,
+            "max": [1, 0.9999983310699463, 1],
+            "min": [-1, -0.8106279373168945, -1],
+            "name": "geo_Plane001_654_0_0_3_NORMAL",
+            "type": "VEC3"
+        },
+        "geo_Plane001_654_0_0_3_POSITION": {
+            "bufferView": "geo_Plane001_654_0_0_3_POSITION_Buffer",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 17785,
+            "max": [0.0002500000118743628, 0.00005907475861022249, 0.0005000000237487257],
+            "min": [-0.00024999998277053237, -0.00005907474405830726, -0.0004999999655410647],
+            "name": "geo_Plane001_654_0_0_3_POSITION",
+            "type": "VEC3"
+        },
+        "geo_Plane001_654_0_0_3_Polygons": {
+            "bufferView": "geo_Plane001_654_0_0_3_Polygons_Buffer",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 45123,
+            "count": 17787,
+            "name": "geo_Plane001_654_0_0_3_Polygons",
+            "type": "SCALAR"
+        },
+        "geo_Plane001_654_0_0_3_TEXCOORD_0": {
+            "bufferView": "geo_Plane001_654_0_0_3_TEXCOORD_0_Buffer",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 75120,
+            "count": 17785,
+            "max": [0.9995005130767822, 0.9995005130767822],
+            "min": [0.0004995167255401611, 0.0004995167255401611],
+            "name": "geo_Plane001_654_0_0_3_TEXCOORD_0",
+            "type": "VEC2"
+        }
+    },
+    "animations": {},
+    "asset": {
+        "copyright": "",
+        "generator": "",
+        "premultipliedAlpha": false,
+        "profile": {
+            "api": "",
+            "version": ""
+        },
+        "version": "v2_1_1_2",
+        "update_at": 1536560060982
+    },
+    "bufferViews": {
+        "geo_Plane001_654_0_0_3_NORMAL_Buffer": {
+            "buffer": "mdkModel",
+            "byteLength": 53355,
+            "byteOffset": 231485,
+            "name": "geo_Plane001_654_0_0_3_NORMAL_Buffer",
+            "target": 34963
+        },
+        "geo_Plane001_654_0_0_3_POSITION_Buffer": {
+            "buffer": "mdkModel",
+            "byteLength": 213420,
+            "byteOffset": 18065,
+            "name": "geo_Plane001_654_0_0_3_POSITION_Buffer",
+            "target": 34963
+        },
+        "geo_Plane001_654_0_0_3_Polygons_Buffer": {
+            "buffer": "mdkModel",
+            "byteLength": 18065,
+            "byteOffset": 0,
+            "name": "geo_Plane001_654_0_0_3_Polygons_Buffer",
+            "target": 34963
+        },
+        "geo_Plane001_654_0_0_3_TEXCOORD_0_Buffer": {
+            "buffer": "mdkModel",
+            "byteLength": 51416,
+            "byteOffset": 284840,
+            "name": "geo_Plane001_654_0_0_3_TEXCOORD_0_Buffer",
+            "target": 34963
+        }
+    },
+    "buffers": {
+        "mdkModel": {
+            "byteLength": 336256,
+            "name": "mdkModel",
+            "type": "arraybuffer",
+            "uri": "mdkModel.bin"
+        }
+    },
+    "cameras": {
+        "alpha": -0.8342231518875478,
+        "beta": 0.9579434066093058,
+        "others": {
+            "axis": "+y",
+            "lowerRadiusLimit": 0.01,
+            "upperRadiusLimit": 500
+        },
+        "radius": 28.586977613913948,
+        "target": {
+            "x": 0.22681527575362767,
+            "y": -1.3999876365377681,
+            "z": -1.0255944910237913
+        },
+        "type": "ArcRotateCamera"
+    },
+    "images": {
+        "Map_01_-_Default0_0_4_terrain": {
+            "md5": "",
+            "name": "Map_01_-_Default0_0_4_terrain",
+            "platform": {
+                "low": {
+                    "ext": "jpg",
+                    "folder": "lowTexture/"
+                },
+                "mobile": {
+                    "ext": "jpg",
+                    "folder": "mobileTexture/"
+                },
+                "pc": {
+                    "ext": "crn",
+                    "folder": "pcTexture/"
+                },
+                "raw": {
+                    "ext": "jpg",
+                    "folder": "rawTexture/"
+                },
+                "snapshot": {
+                    "ext": "jpg",
+                    "folder": "snapshotTexture/"
+                }
+            },
+            "rawMd5": "b17b14de0eb1deba2a4dbb4ca437943a",
+            "uri": "terrain"
+        }
+    },
+    "lights": {
+        "light1": {},
+        "light2": {},
+        "light3": {}
+    },
+    "materials": {
+        "01_-_Default0_0_4": {
+            "name": "01_-_Default0_0_4",
+            "technique": "mdk",
+            "values": {
+                "albedo": {
+                    "color": [0.5882353186607361, 0.5882353186607361, 0.5882353186607361, 1],
+                    "level": 1,
+                    "texture": "texture_Map_01_-_Default0_0_4_terrain",
+                    "type": "texture",
+                    "uvChannel": 0,
+                    "uvScale": {
+                        "u": 1,
+                        "v": 1
+                    }
+                },
+                "backFaceCulling": false,
+                "emissive": {
+                    "color": [0, 0, 0, 1],
+                    "emissiveIntensity": 1,
+                    "type": "color"
+                },
+                "metallic": {
+                    "metallic": 0,
+                    "type": "number"
+                },
+                "occlusion": {
+                    "occlusionStrength": 1,
+                    "type": "number"
+                },
+                "opacity": {
+                    "alpha": 1,
+                    "transparencyMode": 0,
+                    "type": "number"
+                },
+                "roughness": {
+                    "roughness": 1,
+                    "type": "number"
+                },
+                "workFlow": 0
+            }
+        }
+    },
+    "meshes": {
+        "geo_Plane001_654_0_0_3": {
+            "name": "geo_Plane001_654_0_0_3",
+            "primitives": [{
+                "attributes": {
+                    "NORMAL": "geo_Plane001_654_0_0_3_NORMAL",
+                    "POSITION": "geo_Plane001_654_0_0_3_POSITION",
+                    "TEXCOORD_0": "geo_Plane001_654_0_0_3_TEXCOORD_0"
+                },
+                "indices": "geo_Plane001_654_0_0_3_Polygons",
+                "material": "01_-_Default0_0_4",
+                "mode": "4"
+            }]
+        }
+    },
+    "nodes": {
+        "Plane001_654_2": {
+            "children": [],
+            "matrix": [1995456.625, 0, 0, 0, 0, 1069090, 0, 0, 0, 0, 935988.3125, 0, 0.9332500696182251, -0.09724023938179016, 0.8755000829696655, 1],
+            "meshes": ["geo_Plane001_654_0_0_3"],
+            "name": "Plane001_654_2"
+        },
+        "root_node_0": {
+            "children": ["Plane001_654_2"],
+            "matrix": [0.023052366450428963, 0, 0, 0, 0, 0.023052366450428963, 0, 0, 0, 0, 0.023052366450428963, 0, -0.021514510216888993, 0.0022398636850695652, -0.02018348368721945, 1],
+            "name": "root_node_0"
+        }
+    },
+    "programs": null,
+    "samplers": null,
+    "scene": "mdkModel",
+    "scenes": {
+        "mdkModel": {
+            "animation": {},
+            "nodes": ["root_node_0"]
+        }
+    },
+    "shaders": null,
+    "skins": {},
+    "sounds": {},
+    "techniques": {},
+    "textures": {
+        "texture_Map_01_-_Default0_0_4_terrain": {
+            "name": "texture_Map_01_-_Default0_0_4_terrain",
+            "source": "Map_01_-_Default0_0_4_terrain"
+        }
+    },
+    "postprocesses": {},
+    "palace": {},
+    "env": {
+        "color": [0.24705882352941178, 0.5843137254901961, 0.9803921568627451, 1],
+        "hdr": {
+            "environmentIntensity": 25.32,
+            "environmentRotationMatrix": 0,
+            "url": "//oss.image.mdkrcdn.com/2017/05/17/160315/HDR/PaperMill_Ruins/hdrlib_com.dds"
+        },
+        "type": "pureColor"
+    },
+    "fx": {}
+}
